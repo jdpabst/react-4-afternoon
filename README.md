@@ -498,7 +498,7 @@ axios
   });
 ```
 
-Now that we have our students coming in from our `json-server`, let's use a `map` in the render method to render each student's `first` and `last` name in a `h3` element. Remember the react requires mapped elements to have a unique `key` property. In this case, we'll just use the `index` of the `map`.
+Now that we have our students coming in from our `json-server`, let's use a `map` in the render method to render each student's `first` and `last` name in an `h3` element. Remember the react requires mapped elements to have a unique `key` property. In this case, we'll just use the `index` of the `map`.
 
 ```js
 render() {
